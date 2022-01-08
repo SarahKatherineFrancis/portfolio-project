@@ -1,3 +1,21 @@
-h1 {
-  color: pink;
+body {
+  background-image: url(/images/dark.jpg);
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 60px;
+  margin: 0;
+  padding: 250px 0 0;
+}
+
+.hero h2 {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 40px;
 }
