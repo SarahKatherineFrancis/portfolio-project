@@ -1,16 +1,14 @@
-body {
-  background-image: url(/images/dark.jpg);
+.hero {
   width: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+  height: 100vh;
+  background: url(/images/beach.jpg);
+  background-size: cover;
 }
-
 .hero h1 {
   color: white;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Berkshire Swash", cursive;
   font-size: 100px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
   padding: 250px 0 0;
   letter-spacing: 3px;
@@ -29,15 +27,12 @@ body {
   font-weight: 600;
 }
 
-@media (max-width: 900px) {
-  .hero h1 {
-    font-size: 42px;
-    padding: 100px 0 0;
-  }
-  .hero h2 {
-    font-size: 20px;
-  }
-  .hero p {
-    font-size: 20px;
-  }
+.about-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+.about {
+  background-color: #ffc99d;
 }
