@@ -27,12 +27,24 @@
   font-weight: 600;
 }
 
-.about-container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10%;
-}
 .about {
   background-color: #ffc99d;
+}
+
+.container-icons {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.container-icons p {
+  font-size: 20px;
+}
+
+.skills-section {
+  background-color: #628e8f;
+}
+
+.wrapper {
+  padding: 80px;
 }
