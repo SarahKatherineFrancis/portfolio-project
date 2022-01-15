@@ -24,13 +24,6 @@ body {
   font-size: 40px;
 }
 
-.hero p {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-}
-
 .about-section {
   background-color: #ffc99d;
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -42,10 +35,9 @@ body {
 }
 
 .portfolio-image {
-  display: block;
   width: 100%;
-  min-width: 100%;
   border-radius: 50%;
+  height: auto;
 }
 
 .skills-section h1 {
@@ -141,4 +133,20 @@ footer p {
 }
 .wrapper {
   padding: 80px;
+}
+
+@media (max-width: 1100px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .portfolio-image {
+    display: flex;
+  }
 }
