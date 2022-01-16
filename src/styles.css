@@ -103,11 +103,29 @@ body {
   font-family: "Berkshire Swash", cursive;
 }
 
+.contact-form {
+  border-radius: 5px;
+  background-color: #ffc99d;
+}
 .social-media-icons {
   color: white;
   font-size: 30px;
 }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.email-icon:hover {
+  color: tomato;
+  font-size: 40px;
+}
 .instragram-icon:hover {
   color: tomato;
   font-size: 40px;
@@ -148,5 +166,19 @@ footer p {
   }
   .portfolio-image {
     display: flex;
+  }
+  .contact-form {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  .about-section h1 {
+    margin: 0;
+  }
+  h4 {
+    text-align: center;
+  }
+  .project-section img {
   }
 }
