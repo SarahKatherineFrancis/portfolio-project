@@ -75,9 +75,10 @@ body {
 }
 
 .projects-section img {
-  border-radius: 20px;
+  border-radius: 5px;
   width: 100%;
-  max-height: 100%;
+  max-width: 500px;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
 }
 
 .btn {
@@ -164,14 +165,17 @@ footer p {
     font-size: 40px;
     text-align: center;
   }
-  .portfolio-image {
-    display: flex;
-  }
   .contact-form {
     display: none;
   }
   h1 {
     text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
   }
   .about-section h1 {
     margin: 0;
@@ -179,14 +183,24 @@ footer p {
   h4 {
     text-align: center;
   }
-  .project-section img {
-    display: flex;
-    padding: 30px;
-    margin: 30px;
-    text-align: center !important;
+  img {
+    max-width: 200px;
   }
-  .col-sm-6 {
+  .social-media-icons {
+    font-size: 20px;
+  }
+  .project-text {
     width: 100%;
-    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  img {
+    display: none;
+  }
+  .btn {
+    margin-bottom: 5px;
+    padding: 0;
   }
 }
